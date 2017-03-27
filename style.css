@@ -1,0 +1,259 @@
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+}
+
+*{
+	padding: 0 auto;
+	margin: 0 auto;
+
+}
+
+#main{
+width: 100%;
+height: 100%;
+background:#375DAA;
+/*opacity: 0.9;*/
+}
+.wrapper{
+	background-image: url(img/1.png) no-repeat;
+	height: 100%;
+	width: 960px;
+	opacity: 0.8;
+}
+.one{
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-top: 0px;
+	/*border: 1px solid grey;*/
+	height: 10px;
+}
+.one>.col3 {
+	width: 200px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	
+}
+.one>.col3 img{
+	margin-right: 10px;
+	float: left;
+	width: 40px;
+	height: 40px;
+background-color: white;
+}
+.one>.two >p {
+	margin-top: 5px;
+	line-height: -15px;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+}
+.one> button{
+	border-radius: 5px;
+	font-family:sans-serif;
+	font-size: 20px;
+	margin-right: 30px;
+	width: 120px;
+	height: 40px;
+	background-color: #375DAA;
+	color: white;
+	border-style: none;
+	/*border: 1px solid red;*/
+}
+.one> button:hover{
+
+	background-color: #5F81C1;
+	border-radius: 5px;
+	transition: 0.4s;
+}
+.one #btn2{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-right: 200px;
+}
+.one>a{
+	color: white;
+	margin-right: 15px;
+}
+.five {
+	width: 100px;
+	height: 150px;
+	background-image: url(img/log.svg);
+	background-position: left;
+}
+
+.two> input{
+	background-color: #375DAA;
+	text-decoration: none;
+	border-style: none;
+	margin-top: 50px;
+	margin-left: 309px;
+	width: 624px;
+	height: 45px;
+	border-bottom: 2px solid #7993C6;
+}
+.two> input{
+	font-size: 25px;
+	color: white;
+
+}
+.two> i{
+
+	color: #7993C6;
+	font-size: 25px;
+
+}
+#slider {
+	border-radius: 15px;
+	
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 320px;
+	width: 404px;
+	height: 186px;
+	overflow: hidden;
+}
+#slider img{
+	float: left;
+	width: 404px;
+	height: 186px;
+	border-radius: 15px;
+	
+}
+#polasa{
+	left: 0;
+	position: relative;
+	width:1212px; 
+	background-color: pink;
+	content: "";
+	clear: both;
+	display: block;
+	transition: all ease 0.0001s;
+
+}
+#slider{
+	opacity: 0.6;
+}
+
+
+.two>.bir{
+	border-radius: 15px;
+	margin-top: 20px;
+	margin-left: 770px;
+	width: 185px;
+	height: 186px;
+	background-color: #6381BD;
+}
+
+.two>.bir>.backimg img{
+	margin-top:60px;
+	margin-left: 80px;
+	width: 80px;
+	height: 80px;
+
+}
+.two>.bir>.backimg p{
+	color: white;
+
+}
+.two>.bir>.backimg{
+	padding:25px;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+
+#slider div .bir p{
+	position: absolute;
+	font-size: 15px;
+	color: white;
+}
+.footerr.fod{
+	float: right;
+	
+}
+.fod img{
+	width: 35px;
+	
+}
+.textt{
+
+	margin-right: 0px;
+	margin-top: 10px;
+
+}
+.textt a {
+	margin-bottom: 10px;
+	margin-left: 25px;
+	color: white;
+}
+.footerr{
+	margin-left: 50px;
+	margin-top: 220px;
+}
+.textt p{
+	color:white;
+	float: left;
+	margin-right: 10px;
+}
+.text2 img{
+	width: 15px;
+	background-color: grey;
+	color: blue;
+	height: 15px;
+	float: left;
+}
+.text2 p{
+	margin-right: 10px;
+	float: left;
+	color: white;
+}
+.text2{
+	display: inline-block;
+}
+.footerr.fot{
+	float: right;
+}
+.fot a{
+	color: white;
+	margin-right: 10px;
+}
+.fot,.fot2{
+	
+	/*width: 10px;
+	height: 10px;*/
+}
+.fot2 a{
+float: left;
+margin-right: 5px;
+width: 10px;
+height: 10px;
+}
+.fot2 i{
+	color: white;
+	font-size: 20px;
+	background-color: 
+}
+.fot.fot2 a >img{
+	
+float: left;
+color: grey;
+}
+.def a>img{
+	width: 35px;
+	height: 35px;
+}
+.lyuboy{
+	height: 100%;
+	height: 100vh;
+	width: 100%;
+	width:100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	visibility: hidden;
+	background-color: red;
+	-webkit-clip-path:polygon(65% 0, 100% 0, 100% 100%, 15% 100%);
+}
